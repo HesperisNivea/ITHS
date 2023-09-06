@@ -1,0 +1,14 @@
+C:\Users\radom\OneDrive\Dokumenty\GitHub\Tärningsspel\Tärningsspel\bin\Debug\net7.0\Tärningsspel.exe
+C:\Users\radom\OneDrive\Dokumenty\GitHub\Tärningsspel\Tärningsspel\bin\Debug\net7.0\Tärningsspel.deps.json
+C:\Users\radom\OneDrive\Dokumenty\GitHub\Tärningsspel\Tärningsspel\bin\Debug\net7.0\Tärningsspel.runtimeconfig.json
+C:\Users\radom\OneDrive\Dokumenty\GitHub\Tärningsspel\Tärningsspel\bin\Debug\net7.0\Tärningsspel.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\Tärningsspel\Tärningsspel\bin\Debug\net7.0\Tärningsspel.pdb
+C:\Users\radom\OneDrive\Dokumenty\GitHub\Tärningsspel\Tärningsspel\obj\Debug\net7.0\Tärningsspel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\radom\OneDrive\Dokumenty\GitHub\Tärningsspel\Tärningsspel\obj\Debug\net7.0\Tärningsspel.AssemblyInfoInputs.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\Tärningsspel\Tärningsspel\obj\Debug\net7.0\Tärningsspel.AssemblyInfo.cs
+C:\Users\radom\OneDrive\Dokumenty\GitHub\Tärningsspel\Tärningsspel\obj\Debug\net7.0\Tärningsspel.csproj.CoreCompileInputs.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\Tärningsspel\Tärningsspel\obj\Debug\net7.0\Tärningsspel.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\Tärningsspel\Tärningsspel\obj\Debug\net7.0\refint\Tärningsspel.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\Tärningsspel\Tärningsspel\obj\Debug\net7.0\Tärningsspel.pdb
+C:\Users\radom\OneDrive\Dokumenty\GitHub\Tärningsspel\Tärningsspel\obj\Debug\net7.0\Tärningsspel.genruntimeconfig.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\Tärningsspel\Tärningsspel\obj\Debug\net7.0\ref\Tärningsspel.dll
