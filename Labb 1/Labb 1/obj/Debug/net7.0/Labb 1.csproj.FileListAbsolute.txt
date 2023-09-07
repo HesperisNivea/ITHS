@@ -12,3 +12,17 @@ C:\Users\radom\OneDrive\Dokumenty\GitHub\Labb 1\Labb 1\obj\Debug\net7.0\refint\L
 C:\Users\radom\OneDrive\Dokumenty\GitHub\Labb 1\Labb 1\obj\Debug\net7.0\Labb 1.pdb
 C:\Users\radom\OneDrive\Dokumenty\GitHub\Labb 1\Labb 1\obj\Debug\net7.0\Labb 1.genruntimeconfig.cache
 C:\Users\radom\OneDrive\Dokumenty\GitHub\Labb 1\Labb 1\obj\Debug\net7.0\ref\Labb 1.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Labb 1\Labb 1\bin\Debug\net7.0\Labb 1.exe
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Labb 1\Labb 1\bin\Debug\net7.0\Labb 1.deps.json
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Labb 1\Labb 1\bin\Debug\net7.0\Labb 1.runtimeconfig.json
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Labb 1\Labb 1\bin\Debug\net7.0\Labb 1.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Labb 1\Labb 1\bin\Debug\net7.0\Labb 1.pdb
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Labb 1\Labb 1\obj\Debug\net7.0\Labb 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Labb 1\Labb 1\obj\Debug\net7.0\Labb 1.AssemblyInfoInputs.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Labb 1\Labb 1\obj\Debug\net7.0\Labb 1.AssemblyInfo.cs
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Labb 1\Labb 1\obj\Debug\net7.0\Labb 1.csproj.CoreCompileInputs.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Labb 1\Labb 1\obj\Debug\net7.0\Labb 1.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Labb 1\Labb 1\obj\Debug\net7.0\refint\Labb 1.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Labb 1\Labb 1\obj\Debug\net7.0\Labb 1.pdb
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Labb 1\Labb 1\obj\Debug\net7.0\Labb 1.genruntimeconfig.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Labb 1\Labb 1\obj\Debug\net7.0\ref\Labb 1.dll

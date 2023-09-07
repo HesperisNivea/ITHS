@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-string userInput = "29535123p48723487597645723645"; // how to get it thru args[]
+string userInput = "p"; // how to get it thru args[]
 
 List<string> sequenseSellection = new List<string>();
 
@@ -64,16 +64,6 @@ static int FoundSequenceMatchPosition(int checkpiontLocation, string userInput)
         return checkpiontLocation;
 
     }
-    //else if(checkpointValue == userInput[userInput.Length - 1])
-    //{
-    //    Console.WriteLine("y");
-    //    return checkpiontLocation;
-    //}
-    //else if (checkpointValue == userInput[checkpiontLocation + 1])
-    //{
-    //    Console.WriteLine("z");
-    //    return checkpiontLocation;
-    //}
     else
     {
         for (int i = checkpiontLocation + 2; i < userInput.Length; i++)  // check if its going to be easier with  just adding two instead of one (in case of exception of upper if-sats ) 
