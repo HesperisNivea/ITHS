@@ -1,4 +1,4 @@
-﻿Ex18();
+﻿DrawBox(5, 7);
 
 void Ex10()
 {
@@ -107,7 +107,7 @@ void Ex17()
     Console.WriteLine($"Contains \"{input}\"? {containsSearchResult}");
 
     string[] splitRandomSequence = randomSequence.Split(input);
-    if(splitRandomSequence.Length > 1 ) 
+    if (splitRandomSequence.Length > 1)
     {
         Console.Write(splitRandomSequence[0]);
         Console.ForegroundColor = ConsoleColor.Red;
@@ -124,7 +124,8 @@ void Ex17()
             Console.Write(input);
             Console.ResetColor();
 
-        }else
+        }
+        else
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write(input);
@@ -132,7 +133,7 @@ void Ex17()
             Console.WriteLine(splitRandomSequence);
         }
     }
-   
+
 }
 
 void Ex18()
@@ -142,17 +143,51 @@ void Ex18()
     List<int> stringsLength = new List<int>();
     int sum = 0;
 
-    for(int i = 0; i < dividedUserInput.Length; i++)
+    for (int i = 0; i < dividedUserInput.Length; i++)
     {
         stringsLength.Add(dividedUserInput[i].Length);
 
     }
-         
-    foreach(int i in stringsLength) 
+
+    foreach (int i in stringsLength)
     {
         sum += i;
     }
 
-    Console.WriteLine("Average number of characters in this sentence is: " + Math.Round((double)sum/dividedUserInput.Length));
+    Console.WriteLine("Average number of characters in this sentence is: " + Math.Round((double)sum / dividedUserInput.Length));
 }
+void DrawBox(int width, int height)
+{
+    char hash = '#';
+    char minus = '-';
+    for (int i = 0; i < height; i++)
+    {
+        Console.WriteLine();
+        if (i == 0 || height - 1 == i)
+        {
+            for (int j = 0; j < width; j++)
+            {
+                Console.Write(hash);
+            }
+        }
+        else
+        {
+            for (int j = 0; j < width; j++)
+            {
+                if (j == 0 || width -1 == j)
+                {
+                    Console.Write(hash);
+                }
+                else
+                { Console.Write(minus); }
 
+            }
+        }
+    }
+} //ex 19
+
+void Ex20()
+{
+    Console.SetCursorPosition(0, 0);   
+    
+}
