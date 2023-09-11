@@ -1,4 +1,5 @@
-﻿Ex17();
+﻿Console.WriteLine("First Name is " + args[0]); // Added "Izabela" to command line argument (properties/debug)
+
 
 
 void Ex10()
@@ -194,3 +195,4 @@ void Ex20()
     Console.SetCursorPosition(0, 0);   
     
 }
+
