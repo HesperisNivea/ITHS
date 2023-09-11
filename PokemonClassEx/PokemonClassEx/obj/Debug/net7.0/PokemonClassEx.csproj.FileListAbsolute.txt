@@ -1,0 +1,14 @@
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\PokemonClassEx\PokemonClassEx\bin\Debug\net7.0\PokemonClassEx.exe
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\PokemonClassEx\PokemonClassEx\bin\Debug\net7.0\PokemonClassEx.deps.json
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\PokemonClassEx\PokemonClassEx\bin\Debug\net7.0\PokemonClassEx.runtimeconfig.json
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\PokemonClassEx\PokemonClassEx\bin\Debug\net7.0\PokemonClassEx.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\PokemonClassEx\PokemonClassEx\bin\Debug\net7.0\PokemonClassEx.pdb
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\PokemonClassEx\PokemonClassEx\obj\Debug\net7.0\PokemonClassEx.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\PokemonClassEx\PokemonClassEx\obj\Debug\net7.0\PokemonClassEx.AssemblyInfoInputs.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\PokemonClassEx\PokemonClassEx\obj\Debug\net7.0\PokemonClassEx.AssemblyInfo.cs
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\PokemonClassEx\PokemonClassEx\obj\Debug\net7.0\PokemonClassEx.csproj.CoreCompileInputs.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\PokemonClassEx\PokemonClassEx\obj\Debug\net7.0\PokemonClassEx.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\PokemonClassEx\PokemonClassEx\obj\Debug\net7.0\refint\PokemonClassEx.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\PokemonClassEx\PokemonClassEx\obj\Debug\net7.0\PokemonClassEx.pdb
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\PokemonClassEx\PokemonClassEx\obj\Debug\net7.0\PokemonClassEx.genruntimeconfig.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\PokemonClassEx\PokemonClassEx\obj\Debug\net7.0\ref\PokemonClassEx.dll

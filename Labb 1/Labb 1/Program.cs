@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-string userInput = "p"; // how to get it thru args[]
+string userInput = "1234454321535g533462341"; // how to get it thru args[]
 
 List<string> sequenseSellection = new List<string>();
 

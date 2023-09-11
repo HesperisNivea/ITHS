@@ -1,4 +1,5 @@
-﻿DrawBox(5, 7);
+﻿Ex17();
+
 
 void Ex10()
 {
@@ -107,7 +108,9 @@ void Ex17()
     Console.WriteLine($"Contains \"{input}\"? {containsSearchResult}");
 
     string[] splitRandomSequence = randomSequence.Split(input);
-    if (splitRandomSequence.Length > 1)
+
+    // kollar om input är i mellan eller börjar/slutar randomSequence (olika storlekar av splitRandomSequence)
+    if (splitRandomSequence.Length > 1)   
     {
         Console.Write(splitRandomSequence[0]);
         Console.ForegroundColor = ConsoleColor.Red;
