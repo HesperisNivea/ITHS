@@ -1,35 +1,36 @@
 ﻿using System.Collections.Generic;
-string userInput = "1234454321535g533462341"; // how to get it thru args[]
 
-List<string> sequenseSellection = new List<string>();
+List<string> sequenceCollection = new List<string>(); // collects found sequences for later sum calculation.
+string separator = "---------------------------------------------------------------------------------";
+Console.WriteLine("Inför sekvens: ");
+string userInput = Console.ReadLine(); //"29535123p48723487597645723645" 
+Console.WriteLine(separator);
 
 for (int i = 0; i < userInput.Length; i++)
 {
-    string sequenceCollector = "";
-    int sequenceMatchPosition = FoundSequenceMatchPosition(i, userInput); //if no math returns 'i' value
-    if (sequenceMatchPosition == i)
+    string sequenceCollector = ""; //
+    int sequenceMatchPointLocation = LookingForMatchingPointLocation(i, userInput); 
+    if (sequenceMatchPointLocation == i) 
     {
-        //Console.WriteLine(i + " " + sequenceMatchPosition);
-        //continue; 
+        // if LookingForMatchingPointLocation didnt find a matching point it returned i value == checkpoint value
     }
-    else
+    else // sequence was found 
     {
         for (int j = 0; j < i; j++)
         {
             Console.Write(userInput[j]);
         }
 
-        for (int k = i; k <= sequenceMatchPosition; k++)
+        for (int k = i; k <= sequenceMatchPointLocation; k++)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write(userInput[k]);
-            sequenceCollector += userInput[k];
-            // ++++ collect a sequence into a string variable  ==> then when its ready Add to the List<>
+            sequenceCollector += userInput[k]; // collect a sequence into a string variable 
         }
-        sequenseSellection.Add(sequenceCollector); // collects value
+        sequenceCollection.Add(sequenceCollector); // collects value
         Console.ResetColor();
 
-        for (int l = sequenceMatchPosition + 1; l < userInput.Length; l++)
+        for (int l = sequenceMatchPointLocation + 1; l < userInput.Length; l++)
         {
 
             Console.Write(userInput[l]);
@@ -40,22 +41,24 @@ for (int i = 0; i < userInput.Length; i++)
     }
 
 }
-Console.WriteLine("---------------------------------------------------------------------------------");
-Console.WriteLine("---------------------------------------------------------------------------------");
-Console.WriteLine("---------------------------------------------------------------------------------");
+
+Console.WriteLine(separator);
+Console.WriteLine(separator);
+Console.WriteLine(separator);
 
 int counter = 0;
 long sum = 0;
-foreach (string s in sequenseSellection)
+foreach (string s in sequenceCollection)
 {
     counter++;
     sum += long.Parse(s);
     Console.WriteLine("{0}. {1}", counter, s);
 }
-Console.WriteLine("---------------------------------------------------------------------------------");
+Console.WriteLine(separator);
 Console.WriteLine("Summan ar:" + sum);
-Console.WriteLine("---------------------------------------------------------------------------------");
-static int FoundSequenceMatchPosition(int checkpiontLocation, string userInput)
+Console.WriteLine(separator);
+
+int LookingForMatchingPointLocation(int checkpiontLocation, string userInput) 
 {
     char checkpointValue = userInput[checkpiontLocation];
     if (!char.IsDigit(checkpointValue)) // if needed separate into else ifs  
@@ -87,6 +90,6 @@ static int FoundSequenceMatchPosition(int checkpiontLocation, string userInput)
         return checkpiontLocation;
     }
 
-}
+} 
 
 
