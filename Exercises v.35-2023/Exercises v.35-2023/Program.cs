@@ -1,4 +1,9 @@
-﻿Console.WriteLine("First Name is " + args[0]); // Added "Izabela" to command line argument (properties/debug)
+﻿//Console.WriteLine("First Name is " + args[0]); // Added "Izabela" to command line argument (properties/debug)
+
+DrawBox(20, 20);
+
+Ex20();
+
 
 
 
@@ -162,6 +167,7 @@ void Ex18()
 }
 void DrawBox(int width, int height)
 {
+    Console.Clear();
     char hash = '#';
     char minus = '-';
     for (int i = 0; i < height; i++)
@@ -192,7 +198,56 @@ void DrawBox(int width, int height)
 
 void Ex20()
 {
-    Console.SetCursorPosition(0, 0);   
+
+    ConsoleKeyInfo keyInfo = new ConsoleKeyInfo();
+    Console.SetCursorPosition(2,2);
+    var currentPositionX = 2;
+    var currentPositionY = 2;
+
+    while (true)
+    {
+        
+        keyInfo = Console.ReadKey(true);
+        var enumKey = keyInfo.Key;
+
+        if( (int)enumKey == 40 )
+        {
+            currentPositionY++;
+            Console.SetCursorPosition(currentPositionX, currentPositionY);
+        }
+        else if( (int)enumKey == 39)
+        {
+            currentPositionX++;
+            Console.SetCursorPosition(currentPositionX, currentPositionY);
+        }
+        else if ((int)enumKey == 38)
+        {
+            currentPositionY--;
+            Console.SetCursorPosition(currentPositionX, currentPositionY);
+        }
+        else if ((int)enumKey == 37)
+        {
+            currentPositionX--;
+            Console.SetCursorPosition(currentPositionX, currentPositionY);
+        }
+        else if(enumKey.ToString() == "Spacebar")
+        {
+            currentPositionX++;
+            Console.Write('@');
+        }
+        else
+        {
+            Console.SetCursorPosition(0,21); // hardcoded location
+            Console.WriteLine("You pressed wrong button.");
+            Console.SetCursorPosition(currentPositionX, currentPositionY);
+        }
+
+
+    }
+        
+
     
+
+
 }
 

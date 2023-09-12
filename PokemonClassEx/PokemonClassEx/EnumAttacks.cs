@@ -12,6 +12,6 @@ namespace PokemonClassEx
         Scratch,
         Ember,
         ThunderBolt,
-
+       
     }
 }

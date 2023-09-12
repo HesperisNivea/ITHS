@@ -1,0 +1,14 @@
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Exercises v.35-2023\Snake\bin\Debug\net7.0\Snake.exe
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Exercises v.35-2023\Snake\bin\Debug\net7.0\Snake.deps.json
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Exercises v.35-2023\Snake\bin\Debug\net7.0\Snake.runtimeconfig.json
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Exercises v.35-2023\Snake\bin\Debug\net7.0\Snake.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Exercises v.35-2023\Snake\bin\Debug\net7.0\Snake.pdb
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Exercises v.35-2023\Snake\obj\Debug\net7.0\Snake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Exercises v.35-2023\Snake\obj\Debug\net7.0\Snake.AssemblyInfoInputs.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Exercises v.35-2023\Snake\obj\Debug\net7.0\Snake.AssemblyInfo.cs
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Exercises v.35-2023\Snake\obj\Debug\net7.0\Snake.csproj.CoreCompileInputs.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Exercises v.35-2023\Snake\obj\Debug\net7.0\Snake.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Exercises v.35-2023\Snake\obj\Debug\net7.0\refint\Snake.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Exercises v.35-2023\Snake\obj\Debug\net7.0\Snake.pdb
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Exercises v.35-2023\Snake\obj\Debug\net7.0\Snake.genruntimeconfig.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\Exercises v.35-2023\Snake\obj\Debug\net7.0\ref\Snake.dll

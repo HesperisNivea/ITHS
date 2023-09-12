@@ -13,6 +13,18 @@ namespace PokemonClassEx
         Water,
         Grass,
         Rock,
-        Psychic
+        Psychic,
+        Bug,
+        Dark,
+        Dragon,
+        Fairy,
+        Fighting,
+        Flying,
+        Ghost,
+        Ground,
+        Ice,
+        Normal,
+        Poison,
+        Steel,
     }
 }
