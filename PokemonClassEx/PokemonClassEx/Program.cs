@@ -8,3 +8,5 @@ charmander.Type = (EnumPokeTypes)1;
 Console.WriteLine(pikachu);
 Console.WriteLine(charmander);
 Pokemon.Attack();
+
+List<Pokemon> list = new List<Pokemon>();
