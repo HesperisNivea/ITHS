@@ -1,11 +1,48 @@
-﻿//Console.WriteLine("First Name is " + args[0]); // Added "Izabela" to command line argument (properties/debug)
-
-DrawBox(20, 20);
-
-Ex20();
+﻿using Exercises_v._35_2023;
+using System.Collections.Generic;
+//Console.WriteLine("First Name is " + args[0]); // Added "Izabela" to command line argument (properties/debug)
 
 
+//DrawBox(20, 20);
 
+//Ex20();
+
+//EX22 
+//Console.WriteLine("Write a sequence, if you want to stop press enter.");
+//List<string> list = new List<string>();
+//bool loopBreaker = true;
+//while (loopBreaker)
+//{
+//    string randomString = Console.ReadLine();
+//    if (randomString == string.Empty)
+//    {
+//        loopBreaker = false;
+//    }
+//     list.Add(randomString);
+//}
+//Ex22(list);
+// EX22
+
+////EX23
+//ConsoleKeyInfo keyInfo = new ConsoleKeyInfo();
+//string randomString = Console.ReadLine();
+//keyInfo = Console.ReadKey();
+//char randomChar = keyInfo.KeyChar ;
+
+//IndexOFAll(randomString, randomChar);
+////EX23
+
+//EX26
+Counter counter = new Counter();
+for (int i = 0; i < 100; i++)
+{
+
+    counter.CountUp();
+    Console.WriteLine(counter.Count);
+}
+counter.Reset();
+Console.WriteLine(counter.Count);
+//EX26
 
 void Ex10()
 {
@@ -116,7 +153,7 @@ void Ex17()
     string[] splitRandomSequence = randomSequence.Split(input);
 
     // kollar om input är i mellan eller börjar/slutar randomSequence (olika storlekar av splitRandomSequence)
-    if (splitRandomSequence.Length > 1)   
+    if (splitRandomSequence.Length > 1)
     {
         Console.Write(splitRandomSequence[0]);
         Console.ForegroundColor = ConsoleColor.Red;
@@ -184,7 +221,7 @@ void DrawBox(int width, int height)
         {
             for (int j = 0; j < width; j++)
             {
-                if (j == 0 || width -1 == j)
+                if (j == 0 || width - 1 == j)
                 {
                     Console.Write(hash);
                 }
@@ -200,22 +237,23 @@ void Ex20()
 {
 
     ConsoleKeyInfo keyInfo = new ConsoleKeyInfo();
-    Console.SetCursorPosition(2,2);
+    Console.SetCursorPosition(2, 2);
     var currentPositionX = 2;
     var currentPositionY = 2;
 
+
     while (true)
     {
-        
+
         keyInfo = Console.ReadKey(true);
         var enumKey = keyInfo.Key;
 
-        if( (int)enumKey == 40 )
+        if ((int)enumKey == 40)
         {
             currentPositionY++;
             Console.SetCursorPosition(currentPositionX, currentPositionY);
         }
-        else if( (int)enumKey == 39)
+        else if ((int)enumKey == 39)
         {
             currentPositionX++;
             Console.SetCursorPosition(currentPositionX, currentPositionY);
@@ -230,24 +268,57 @@ void Ex20()
             currentPositionX--;
             Console.SetCursorPosition(currentPositionX, currentPositionY);
         }
-        else if(enumKey.ToString() == "Spacebar")
+        else if (enumKey.ToString() == "Spacebar")
         {
             currentPositionX++;
             Console.Write('@');
         }
         else
         {
-            Console.SetCursorPosition(0,21); // hardcoded location
+            Console.SetCursorPosition(0, 21); // hardcoded location
             Console.WriteLine("You pressed wrong button.");
             Console.SetCursorPosition(currentPositionX, currentPositionY);
         }
 
 
     }
-        
 
-    
+
+
 
 
 }
+
+void Ex22(List<string> list)
+{
+    string longestString = "";
+    for (int i = 0; i < list.Count - 1; i++)
+    {
+        if (list[i].Length > longestString.Length)
+        {
+            longestString = list[i];
+        }
+    }
+    Console.WriteLine($"It is the longest string from the input:\n{longestString}");
+}
+
+void IndexOFAll(string text, char c)
+{
+    Console.WriteLine();
+    List<int> listOfIndexes = new List<int>();
+    for (int i = 0; i < text.Length; i++)
+    {
+        if ((char)text[i] == c)
+        {
+            listOfIndexes.Add(i);
+        }
+    }
+    Console.WriteLine($"Positions of {c} in the given string are:");
+    foreach (var index in listOfIndexes)
+    {
+        Console.WriteLine(index + 1);
+    }
+
+}
+
 

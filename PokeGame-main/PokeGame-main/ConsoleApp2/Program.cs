@@ -26,7 +26,7 @@ Pokemon psyduck = new Pokemon("Spyduck", PokeTypes.Water);
 
 trainer.Catch(cherubi,bellossom,chikorita,pansage,psyduck);
 
-foreach (Pokemon p in trainer.PokemonCollection)
+foreach (var p in trainer.PokemonCollection)
 {
     Console.WriteLine(p.Name);
 }

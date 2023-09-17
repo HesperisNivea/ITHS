@@ -8,7 +8,7 @@ namespace PokeGame
 {
     internal class Trainer
     {
-        public List<Pokemon> PokemonCollection { get; set; }
+        public List<Pokemon> PokemonCollection { get; set; } // = new PokemonCollection<>();
 
         public Trainer()
         { 

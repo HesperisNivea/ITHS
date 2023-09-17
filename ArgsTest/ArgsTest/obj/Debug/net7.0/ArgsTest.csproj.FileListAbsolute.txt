@@ -1,0 +1,14 @@
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\ArgsTest\ArgsTest\bin\Debug\net7.0\ArgsTest.exe
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\ArgsTest\ArgsTest\bin\Debug\net7.0\ArgsTest.deps.json
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\ArgsTest\ArgsTest\bin\Debug\net7.0\ArgsTest.runtimeconfig.json
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\ArgsTest\ArgsTest\bin\Debug\net7.0\ArgsTest.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\ArgsTest\ArgsTest\bin\Debug\net7.0\ArgsTest.pdb
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\ArgsTest\ArgsTest\obj\Debug\net7.0\ArgsTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\ArgsTest\ArgsTest\obj\Debug\net7.0\ArgsTest.AssemblyInfoInputs.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\ArgsTest\ArgsTest\obj\Debug\net7.0\ArgsTest.AssemblyInfo.cs
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\ArgsTest\ArgsTest\obj\Debug\net7.0\ArgsTest.csproj.CoreCompileInputs.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\ArgsTest\ArgsTest\obj\Debug\net7.0\ArgsTest.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\ArgsTest\ArgsTest\obj\Debug\net7.0\refint\ArgsTest.dll
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\ArgsTest\ArgsTest\obj\Debug\net7.0\ArgsTest.pdb
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\ArgsTest\ArgsTest\obj\Debug\net7.0\ArgsTest.genruntimeconfig.cache
+C:\Users\radom\OneDrive\Dokumenty\GitHub\ITHS\ArgsTest\ArgsTest\obj\Debug\net7.0\ref\ArgsTest.dll

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ArgsTest": {
+      "commandName": "Project",
+      "commandLineArgs": "Asia Basia Kasia Tosia Zosia "
+    }
+  }
+}
