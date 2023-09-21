@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "Snake/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Snake.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Snake.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "Snake/1.0.0": {
-      "type": "project",
-      "path": "../Snake/Snake.csproj",
-      "msbuildProject": "../Snake/Snake.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "Snake >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\radom\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radom\\OneDrive\\Dokumenty\\GitHub\\ITHS\\SnakeGame\\SnakeGame\\SnakeGame.csproj",
-      "projectName": "SnakeGame",
-      "projectPath": "C:\\Users\\radom\\OneDrive\\Dokumenty\\GitHub\\ITHS\\SnakeGame\\SnakeGame\\SnakeGame.csproj",
+      "projectUniqueName": "C:\\Users\\radom\\OneDrive\\Dokumenty\\GitHub\\ITHS\\SnakeGame\\Snake\\Snake.csproj",
+      "projectName": "Snake",
+      "projectPath": "C:\\Users\\radom\\OneDrive\\Dokumenty\\GitHub\\ITHS\\SnakeGame\\Snake\\Snake.csproj",
       "packagesPath": "C:\\Users\\radom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radom\\OneDrive\\Dokumenty\\GitHub\\ITHS\\SnakeGame\\SnakeGame\\obj\\",
+      "outputPath": "C:\\Users\\radom\\OneDrive\\Dokumenty\\GitHub\\ITHS\\SnakeGame\\Snake\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,11 +39,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\radom\\OneDrive\\Dokumenty\\GitHub\\ITHS\\SnakeGame\\Snake\\Snake.csproj": {
-              "projectPath": "C:\\Users\\radom\\OneDrive\\Dokumenty\\GitHub\\ITHS\\SnakeGame\\Snake\\Snake.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
