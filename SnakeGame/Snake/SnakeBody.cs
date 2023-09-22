@@ -1,16 +1,28 @@
-﻿namespace Snake;
+﻿using System.Drawing;
+
+namespace Snake;
 
 public class SnakeBody
 {
-    public List<SnakeSegment> SnakeSegments { get; set; } = new List<SnakeSegment>();
-    private SnakeSegment snakeSegment { get; set; }
+    private Point _snakeSegment;
+    public List<Point> SnakeSegments { get; set; } = new List<Point>();
+    public Point SnakeSegment { get; set; } 
 
     public SnakeBody()
     {
-        for (int i = 0; i < 10; i++)
+
+        for (int i = 0; i < 3; i++)
         {
-            SnakeSegments.Add(snakeSegment);
+            //_snakeSegment.X = 2 + i;
+            //_snakeSegment.Y = 2 + i;
+            SnakeSegments.Add(_snakeSegment);
         }
+
+        foreach (var point in SnakeSegments)
+        {
+            //Console.WriteLine(point);
+        }
+        
     }
 
     

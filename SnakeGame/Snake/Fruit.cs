@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Snake
 {
-    public class Fruit : BoardSegment
+    public class Fruit 
     {
         
     }
